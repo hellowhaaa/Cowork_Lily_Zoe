@@ -4,7 +4,7 @@ import random
 app = Flask(__name__)
 
 
-@app.route("/recommendation", methods=['GET'])
+@app.route("/python/recommendation", methods=['GET'])
 def recommendation():
     item_id = request.args.get('id')
     print(item_id)
@@ -39,7 +39,7 @@ def recommendation():
     return jsonify({"recommend": temp_output})
 
 
-@app.route("/AI", methods=['POST'])
+@app.route("/python/AI", methods=['POST'])
 def AI():
     print(request.json)
     if not request.json:
