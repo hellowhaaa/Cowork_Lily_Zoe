@@ -140,21 +140,21 @@ def size_int_to_string(size_int_list):
 
 
 def match_color_code(color_name):
-    if '藍' or '青' in color_name:
-        return '#0000FF'
+    if ('藍' in color_name) or ('青' in color_name):
+        return '0000FF'
     if '紅' in color_name:
-        return '#FF0000'
-    if '橘' or '橙' in color_name:
-        return '#FFA500'
+        return 'FF0000'
+    if ('橘' in color_name) or ('橙' in color_name):
+        return 'FFA500'
     if '黃' in color_name:
-        return '#FFFF00'
+        return 'FFFF00'
     if '綠' in color_name:
-        return '#00FF00'
+        return '00FF00'
     if '紫' in color_name:
-        return '#B399FF'
+        return 'B399FF'
     if '灰' in color_name:
-        return '#808080'
-    return '#FFFFFF'
+        return '808080'
+    return 'FFFFFF'
 
 
 def fetch_data(item_id, category):
@@ -394,21 +394,22 @@ for i in range(num_threads):
     lia_threads.append(tlia)
     lia_threads[i].start()
 
-
-output_list = []
-for _ in range(result_queue.qsize()):
-    result = result_queue.get()
-    if result != None:
-        output_list.append(result)
-
-f = open('product.json', 'w')
-json.dump(output_list, f, ensure_ascii=False)
-f.close()
-
 for i in range(num_threads):
     liw_threads[i].join()
     lim_threads[i].join()
     lia_threads[i].join()
+
+
+output_list = []
+len_result = result_queue.qsize()
+for _ in range(len_result):
+    result = result_queue.get()
+    if result != None:
+        output_list.append(result)
+
+f = open('product2.json', 'w')
+json.dump(output_list, f, ensure_ascii=False)
+f.close()
 
 # START FETCHING DATA
 
