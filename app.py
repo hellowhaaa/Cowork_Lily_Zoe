@@ -34,6 +34,14 @@ print(my_cursor)
 
 @app.route("/python/recommendation", methods=['GET'])
 def recommendation():
+    db = pymysql.connect(host=database['host'],
+                         user=database['user'],
+                         password=database['password'],
+                         database=database['database'],
+                         cursorclass=pymysql.cursors.DictCursor,
+                         charset="utf8mb4")
+
+    my_cursor = db.cursor()
     product_id = request.args.get('id')
     print(product_id)
     query_select_re_product_id = """
