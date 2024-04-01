@@ -1,0 +1,107 @@
+nohup: ignoring input
+[2024-03-31 12:22:15 +0000] [6485] [INFO] Starting gunicorn 21.2.0
+[2024-03-31 12:22:15 +0000] [6485] [INFO] Listening at: http://127.0.0.1:5000 (6485)
+[2024-03-31 12:22:15 +0000] [6485] [INFO] Using worker: sync
+[2024-03-31 12:22:15 +0000] [6486] [INFO] Booting worker with pid: 6486
+[2024-03-31 13:53:20 +0000] [6486] [INFO] Parent changed, shutting down: <Worker 6486>
+[2024-03-31 13:53:20 +0000] [6486] [INFO] Worker exiting (pid: 6486)
+64943011
+{'id': 64493011, 'category': 'WOMEN', 'title': '棉麻七分袖襯衫', 'price': 590, 'colors': [{'code': '白色', 'name': '#0000FF'}, {'code': '橄欖綠', 'name': '#0000FF'}, {'code': '深粉桔', 'name': '#0000FF'}, {'code': '復古黃', 'name': '#0000FF'}, {'code': '藏青', 'name': '#0000FF'}], 'sizes': ['S', 'M', 'L', 'XL'], 'main_image': 'https://s.lativ.com.tw/i/64493/64493011/6449301_500.jpg', 'images': ['https://s4.lativ.com.tw/i/64493/6449304_D_08.jpg', 'https://s1.lativ.com.tw/i/64493/6449304_D_09.jpg', 'https://s2.lativ.com.tw/i/64493/64493_D_11.jpg', 'https://s3.lativ.com.tw/i/64493/64493_D_12.jpg', 'https://s4.lativ.com.tw/i/CommonPicture/2805/LINEN_01.jpg', 'https://s1.lativ.com.tw/i/64493/64493_D_13.jpg', 'https://s2.lativ.com.tw/i/64493/64493_D_14.jpg', 'https://s3.lativ.com.tw/i/64493/64493_D_15.jpg', 'https://s4.lativ.com.tw/i/64493/64493_D_16.jpg', 'https://s1.lativ.com.tw/i/64493/64493_D_17.jpg', 'https://s2.lativ.com.tw/i/64493/6449301_D_01-2.jpg', 'https://s3.lativ.com.tw/i/64493/6449303_D_03_0.jpg', 'https://s4.lativ.com.tw/i/CommonPicture/2030/ITS_TW_G2.jpg']}
+{'id': 64493011, 'category': 'WOMEN', 'title': '棉麻七分袖襯衫', 'price': 590, 'colors': [{'code': '白色', 'name': '#0000FF'}, {'code': '橄欖綠', 'name': '#0000FF'}, {'code': '深粉桔', 'name': '#0000FF'}, {'code': '復古黃', 'name': '#0000FF'}, {'code': '藏青', 'name': '#0000FF'}], 'sizes': ['S', 'M', 'L', 'XL'], 'main_image': 'https://s.lativ.com.tw/i/64493/64493011/6449301_500.jpg', 'images': ['https://s4.lativ.com.tw/i/64493/6449304_D_08.jpg', 'https://s1.lativ.com.tw/i/64493/6449304_D_09.jpg', 'https://s2.lativ.com.tw/i/64493/64493_D_11.jpg', 'https://s3.lativ.com.tw/i/64493/64493_D_12.jpg', 'https://s4.lativ.com.tw/i/CommonPicture/2805/LINEN_01.jpg', 'https://s1.lativ.com.tw/i/64493/64493_D_13.jpg', 'https://s2.lativ.com.tw/i/64493/64493_D_14.jpg', 'https://s3.lativ.com.tw/i/64493/64493_D_15.jpg', 'https://s4.lativ.com.tw/i/64493/64493_D_16.jpg', 'https://s1.lativ.com.tw/i/64493/64493_D_17.jpg', 'https://s2.lativ.com.tw/i/64493/6449301_D_01-2.jpg', 'https://s3.lativ.com.tw/i/64493/6449303_D_03_0.jpg', 'https://s4.lativ.com.tw/i/CommonPicture/2030/ITS_TW_G2.jpg']}
+{'id': 64493011, 'category': 'WOMEN', 'title': '棉麻七分袖襯衫', 'price': 590, 'colors': [{'code': '白色', 'name': '#0000FF'}, {'code': '橄欖綠', 'name': '#0000FF'}, {'code': '深粉桔', 'name': '#0000FF'}, {'code': '復古黃', 'name': '#0000FF'}, {'code': '藏青', 'name': '#0000FF'}], 'sizes': ['S', 'M', 'L', 'XL'], 'main_image': 'https://s.lativ.com.tw/i/64493/64493011/6449301_500.jpg', 'images': ['https://s4.lativ.com.tw/i/64493/6449304_D_08.jpg', 'https://s1.lativ.com.tw/i/64493/6449304_D_09.jpg', 'https://s2.lativ.com.tw/i/64493/64493_D_11.jpg', 'https://s3.lativ.com.tw/i/64493/64493_D_12.jpg', 'https://s4.lativ.com.tw/i/CommonPicture/2805/LINEN_01.jpg', 'https://s1.lativ.com.tw/i/64493/64493_D_13.jpg', 'https://s2.lativ.com.tw/i/64493/64493_D_14.jpg', 'https://s3.lativ.com.tw/i/64493/64493_D_15.jpg', 'https://s4.lativ.com.tw/i/64493/64493_D_16.jpg', 'https://s1.lativ.com.tw/i/64493/64493_D_17.jpg', 'https://s2.lativ.com.tw/i/64493/6449301_D_01-2.jpg', 'https://s3.lativ.com.tw/i/64493/6449303_D_03_0.jpg', 'https://s4.lativ.com.tw/i/CommonPicture/2030/ITS_TW_G2.jpg']}
+64943011
+64943011
+64943011
+64943011
+64943011
+201902192816
+201902192816
+201902192816
+201902192816
+201902192816
+201902192816
+201902192816
+64943011
+201902192816
+201902192816
+201902192816
+201902192816
+201902192816
+201902192816
+201902192816
+201902192816
+201902192816
+201902192816
+201902192816
+201902192816
+201902192816
+201902192816
+201902192816
+201902192816
+201902192816
+64943011
+201902192809
+201902192809
+201902192809
+201902192809
+201902192809
+201902192809
+64943011
+201902192809
+201902192809
+201902192809
+201902192809
+201902192809
+201902192809
+201902192809
+201902192809
+201902192809
+201902192809
+201902192809
+201902192809
+201902191324
+201902191324
+201902192809
+201902192809
+201902192809
+201902192809
+201902191404
+201902192219
+201902192811
+201902192811
+201902192809
+201902192809
+201902192809
+201902192809
+64943011
+201902192811
+201902192811
+201902192811
+201902192811
+201902192811
+201902192811
+201902192811
+201902192811
+201902192811
+201902192811
+201902192811
+201902192811
+201902192811
+201902192811
+201902192811
+201902192811
+64943011
+64943011
+201902192813
+201902192811'
+201902192813
+201902192273
+201902192273
+201902192273
+201902192273
+201902192273
+201902192273
+201902192273
+201902192273
+201902192273
+201902192771
